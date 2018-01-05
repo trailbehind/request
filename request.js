@@ -121,7 +121,7 @@ function Request (options) {
   }
   self._qs = new Querystring(self)
   self._auth = new Auth(self)
-  // self._oauth = new OAuth(self)
+  self._oauth = new OAuth(self)
   // self._multipart = new Multipart(self)
   self._redirect = new Redirect(self)
   self._tunnel = new Tunnel(self)
